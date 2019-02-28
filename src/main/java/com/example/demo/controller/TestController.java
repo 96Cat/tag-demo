@@ -12,4 +12,9 @@ public class TestController {
        return "test";
    }
 
+    @RequestMapping(value = "/test1", method = RequestMethod.GET)
+   public Object test1() {
+       return "test1";
+   }
+
 }
